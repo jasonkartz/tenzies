@@ -5,10 +5,6 @@ import Header from './Components/Header'
 import Confetti from 'react-confetti'
 import {data} from './data'
 
-//track # of rolls
-//track time it took to win
-//save best time to localStorage
-
 export default function App() {
 
   const [dice, setDice] = useState(data)
