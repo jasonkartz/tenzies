@@ -13,7 +13,10 @@ body {
   justify-content: center;
   padding-top: 50px;
 }
-
+p {
+  line-height: 1.5;
+  font-size: 1.25em;
+}
 main {
   background-color: #F5F5F5;
   width: 75vw;

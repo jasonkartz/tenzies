@@ -2,17 +2,17 @@ import React from "react";
 
 export default function Die(props) {
   let dieFace;
-  if (props.value == 1) {
+  if (props.value === 1) {
     dieFace = "one";
-  } else if (props.value == 2) {
+  } else if (props.value === 2) {
     dieFace = "two";
-  } else if (props.value == 3) {
+  } else if (props.value === 3) {
     dieFace = "three";
-  } else if (props.value == 4) {
+  } else if (props.value === 4) {
     dieFace = "four";
-  } else if (props.value == 5) {
+  } else if (props.value === 5) {
     dieFace = "five";
-  } else if (props.value == 6) {
+  } else if (props.value === 6) {
     dieFace = "six";
   }
   return (
